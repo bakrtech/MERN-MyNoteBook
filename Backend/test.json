@@ -1,0 +1,10 @@
+{
+    "errors": [
+      {
+        "value": "sdf",
+        "msg": "Enter a strong Password",
+        "param": "password",
+        "location": "body"
+      }
+    ]
+  }
