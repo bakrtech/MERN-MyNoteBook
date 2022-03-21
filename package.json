@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "both": "concurrently  \"npm  start\" \"./Backend/node_modules/nodemon/bin/nodemon.js Backend/index.js\""
   },
   "eslintConfig": {
     "extends": [
