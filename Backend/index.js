@@ -9,5 +9,5 @@ app.use(express.json())
 app.use('/api/auth',require('./routes/auth'))
 app.use('/api/notes',require('./routes/notes'))
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Mynotebook Backend listening on port https://127.0.0.1:${port}`)
 })
